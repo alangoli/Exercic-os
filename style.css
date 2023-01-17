@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap');
+
+.date {
+  color: #008080;
+  font-family: roboto;
+}
+
+h1 {
+  font-family: montserrat;  
+}
+
+p {
+  font-family: Open sans;
+}
+
+section div {
+  background-color: #fffafa;
+  margin: auto 10% auto 10%;
+  padding: 1% 5% 2% 3%;
+}
+
+
+section hr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+div {
+  transition: 0.3s;  
+}
+
+div:hover {  
+  transform: scale(1.01,1.01)
+}
